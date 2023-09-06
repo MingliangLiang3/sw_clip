@@ -72,6 +72,12 @@ def parse_args(args):
         help="Whether to use sampling with replacement for webdataset shard selection."
     )
     parser.add_argument(
+        "--subsample",
+        default=False,
+        action="store_true",
+        help="Whether to use sampling with replacement for webdataset shard selection."
+    )
+    parser.add_argument(
         "--csv-separator",
         type=str,
         default="\t",
