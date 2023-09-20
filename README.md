@@ -63,7 +63,7 @@ torchrun --nproc_per_node=8 --master_port=25698 training/main.py \
 Test our model on SLURM.
 ```sbatch ml_run_with_slurm_das_test.sh```
 
-We upload our pre-trained model [here](). You can download them and put them into the model directory.
+We upload our pre-trained model [here](https://drive.google.com/drive/folders/1Llksh_XRetqA7IFkkwSaMNcW6la7hBtM?usp=sharing). You can download them and put them into the model directory.
 Test the model by: ```sbatch clip_run_experiment_cluster_das_test.sh```
 
 ```
