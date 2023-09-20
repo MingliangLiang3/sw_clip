@@ -1,7 +1,7 @@
 # SW-CLIP: Subsampling of Frequent Words in Text for Pre-training a Vision-Language Model
 ACM MM 2023 Workshop Paper Code: Subsampling of Frequent Words in Text for Pre-training a Vision-Language Model.
 
-<img src="./docs/SW-CLIP.jpg" width = "80%" height="60%">
+<img src="./docs/SW-CLIP.jpg" width = "50%" height="50%">
 
 
 ## Data
