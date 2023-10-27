@@ -85,6 +85,13 @@ python -u training/main.py \
 
 ## Citation
 <pre>
+@inproceedings{swclip2023liang,
+author = {Liang, Mingliang and Larson, Martha},
+title = {Subsampling of Frequent Words in Text for Pre-Training a Vision-Language Model},
+year = {2023},
+publisher = {Association for Computing Machinery},
+booktitle = {Proceedings of the 1st Workshop on Large Generative Models Meet Multimodal Applications},
+}
 </pre>
 
 
