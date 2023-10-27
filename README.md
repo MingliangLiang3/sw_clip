@@ -1,7 +1,16 @@
 # SW-CLIP: Subsampling of Frequent Words in Text for Pre-training a Vision-Language Model
 ACM MM 2023 Workshop Paper Code: Subsampling of Frequent Words in Text for Pre-training a Vision-Language Model.
 
-<img src="./docs/SW-CLIP.jpg" width = "50%" height="50%">
+<img src="./docs/SW-CLIP.jpg" width = "90%" height="50%">
+
+
+Comparison of SW-CLIP and CLIP for zero-shot classification on ImageNet1K. 
+The backbone of image encoder is RN50, and the model pre-trained on CC3M for 30 epochs.
+
+| method  | text mask          | text len | time         | ImageNet1K     |
+|---------|--------------------|----------|--------------|----------------|
+| CLIP    | original, 100.00% | 32       | 1.00x         | 16.9%          |
+| SW-CLIP | SW, 42.30%        | 16       | 0.86x         | 17.2%          |
 
 
 ## Data
